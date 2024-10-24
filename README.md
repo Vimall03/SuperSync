@@ -39,6 +39,9 @@ Some things you might want to take care of:
 
 ### Diagram 
 
+![image](https://github.com/user-attachments/assets/118964c4-0252-41ea-887d-7f5646ebdde2)
+
+
 ### Approach to the Problem
 
 The main strategy I used was leveraging `onEdit` triggers in Google Sheets to instantly send any changes to the backend, rather than relying on polling. Polling can be inefficient because it constantly checks for updates at fixed intervals, which wastes resources and slows things down. The `onEdit` trigger in Google Sheets pushes changes as soon as they happen, and since it has built-in debouncing, it prevents unnecessary repeated triggers, which is a huge win in terms of efficiency.
