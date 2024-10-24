@@ -1,3 +1,5 @@
+# SuperSync: Real-Time Data Synchronization: Google Sheets ↔️ Database (PostgreSQL/MySQL)
+
 ### Objective
 Build a solution that enables real-time synchronization of data between a Google Sheet and a specified database (e.g., MySQL, PostgreSQL). The solution should detect changes in the Google Sheet and update the database accordingly, and vice versa.
 
